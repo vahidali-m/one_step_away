@@ -1,0 +1,35 @@
+name: one_step_awayname
+description: A modern job hunting app with courses and history tracking.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.0
+  salomon_bottom_bar: ^3.3.2
+  lottie: ^3.1.0
+  smooth_page_indicator: ^1.1.0
+  font_awesome_flutter: ^10.7.0
+  flutter_svg: ^2.0.9
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
